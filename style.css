@@ -329,7 +329,7 @@ em {
 .hero__image-inner {
   width: 100%;
   aspect-ratio: 3/4;
-  background-image: url(img/bruna.png);
+  background-image: url(foto.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -586,7 +586,7 @@ em {
 .sobre__img-placeholder {
   width: 100%;
   aspect-ratio: 4/5;
-  background-image: url(img/bruna-2.png);
+  background-image: url(sobre.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
