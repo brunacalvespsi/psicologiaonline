@@ -1,0 +1,336 @@
+<DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bruna C. Alves — Psicóloga Clínica</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=DM+Sans:wght@300;400;500&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav__logo">Bruna C. Alves</div>
+    <a href="#contato" class="nav__cta">Agendar consulta</a>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="hero__bg-text" aria-hidden="true">PSICOLOGIA</div>
+    <div class="hero__content">
+      <div class="hero__tag reveal-up">Psicóloga Clínica · CRP 16/09314</div>
+      <h1 class="hero__headline reveal-up delay-1">
+        Para a mulher que<br />
+        carrega tudo e<br />
+        <em>esquece de si.</em>
+      </h1>
+      <p class="hero__sub reveal-up delay-2">
+        Atendimento online com escuta profunda,<br class="br-desk" />
+        ética e acolhedora. Um espaço só seu.
+      </p>
+      <div class="hero__actions reveal-up delay-3">
+        <a href="#contato" class="btn btn--primary">Quero meu espaço</a>
+        <a href="#sobre" class="btn btn--ghost">Conhecer Bruna</a>
+      </div>
+    </div>
+    <div class="hero__image-wrap reveal-right delay-1">
+      <div class="hero__image-frame">
+        <div class="hero__image-inner"></div>
+        <div class="hero__image-quote">
+          <span>"Cuidar de si<br />é um ato de<br /><em>coragem.</em>"</span>
+        </div>
+      </div>
+      <div class="hero__float-card">
+        <span class="float-card__num">+200</span>
+        <span class="float-card__label">sessões realizadas</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- DOR / IDENTIFICAÇÃO -->
+  <section class="pain" id="voce">
+    <div class="pain__inner">
+      <div class="pain__left reveal-left">
+        <span class="section-label">você se reconhece?</span>
+        <h2 class="pain__headline">
+          Você não está<br />
+          <em>desmotivada.</em><br />
+          Você está no<br />
+          automático.
+        </h2>
+      </div>
+      <div class="pain__right">
+        <div class="pain__cards">
+          <div class="pain__card reveal-up delay-1">
+            <span class="pain__card-icon">◦</span>
+            <p>Sente que vive para os outros e no fim do dia não sobra nada pra você</p>
+          </div>
+          <div class="pain__card reveal-up delay-2">
+            <span class="pain__card-icon">◦</span>
+            <p>A ansiedade te acompanha até na hora de descansar</p>
+          </div>
+          <div class="pain__card reveal-up delay-3">
+            <span class="pain__card-icon">◦</span>
+            <p>Relacionamentos te esgotam mais do que te nutrem</p>
+          </div>
+          <div class="pain__card reveal-up delay-4">
+            <span class="pain__card-icon">◦</span>
+            <p>Você sabe que precisa mudar, mas o medo paralisa</p>
+          </div>
+        </div>
+        <p class="pain__conclusion reveal-up delay-5">
+          Nada disso é fraqueza.<br />É sinal de que chegou a hora<br />de olhar para dentro.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section class="sobre" id="sobre">
+    <div class="sobre__decorative" aria-hidden="true">B</div>
+    <div class="sobre__inner">
+      <div class="sobre__image-block reveal-left">
+        <div class="sobre__img-wrap">
+          <div class="sobre__img-placeholder"></div>
+        </div>
+        <div class="sobre__crp">CRP 16/09314</div>
+      </div>
+      <div class="sobre__content reveal-right">
+        <span class="section-label">sobre mim</span>
+        <h2 class="sobre__headline">
+          Sou Bruna C. Alves,<br />
+          <em>Psicóloga Clínica.</em>
+        </h2>
+        <p class="sobre__text">
+          Graduada em Psicologia pela Faculdade Multivix e pós-graduada em Saúde Mental pela Faculdade Estácio de Sá,
+          acredito que a terapia é um espaço de descoberta — não de julgamento.
+        </p>
+        <p class="sobre__text">
+          Minha atuação é voltada para mulheres que carregam muito e cuidam pouco de si. Trabalho com ansiedade, trauma,
+          autoestima e relacionamentos com ética, responsabilidade clínica e profundo compromisso com seu avanço
+          terapêutico.
+        </p>
+        <div class="sobre__badges">
+          <div class="badge reveal-up delay-1">
+            <span class="badge__title">Psicologia</span>
+            <span class="badge__sub">Multivix</span>
+          </div>
+          <div class="badge reveal-up delay-2">
+            <span class="badge__title">Pós-graduação</span>
+            <span class="badge__sub">Saúde Mental · Estácio</span>
+          </div>
+          <div class="badge reveal-up delay-3">
+            <span class="badge__title">Atendimento</span>
+            <span class="badge__sub">Online · Nacional</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ESPECIALIDADES -->
+  <section class="areas" id="areas">
+    <div class="areas__inner">
+      <div class="areas__header">
+        <span class="section-label reveal-up">áreas de atuação</span>
+        <h2 class="areas__headline reveal-up delay-1">
+          O que trabalhamos<br /><em>juntas</em>
+        </h2>
+      </div>
+      <div class="areas__grid">
+        <div class="area-card reveal-up delay-1">
+          <div class="area-card__num">01</div>
+          <h3 class="area-card__title">Ansiedade</h3>
+          <p class="area-card__text">Entender os gatilhos, regulação emocional e construir uma relação mais leve com
+            seus pensamentos.</p>
+        </div>
+        <div class="area-card reveal-up delay-2">
+          <div class="area-card__num">02</div>
+          <h3 class="area-card__title">Trauma</h3>
+          <p class="area-card__text">Reprocessar experiências que ainda moldam suas escolhas e reações no presente.</p>
+        </div>
+        <div class="area-card reveal-up delay-3">
+          <div class="area-card__num">03</div>
+          <h3 class="area-card__title">Autoestima</h3>
+          <p class="area-card__text">Reconstruir a relação consigo mesma, seus limites, seu valor e sua identidade.</p>
+        </div>
+        <div class="area-card reveal-up delay-4">
+          <div class="area-card__num">04</div>
+          <h3 class="area-card__title">Relacionamentos</h3>
+          <p class="area-card__text">Padrões afetivos, limites, dependência emocional e a arte de se relacionar sem se
+            perder.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMO FUNCIONA -->
+  <section class="como" id="como-funciona">
+    <div class="como__inner">
+      <div class="como__header">
+        <span class="section-label reveal-up">processo</span>
+        <h2 class="como__headline reveal-up delay-1">Como funciona<br /><em>o atendimento</em></h2>
+      </div>
+      <div class="como__steps">
+        <div class="step reveal-up delay-1">
+          <div class="step__line"></div>
+          <div class="step__dot"></div>
+          <div class="step__content">
+            <span class="step__num">01</span>
+            <h3 class="step__title">Primeiro contato</h3>
+            <p class="step__text">Você envia uma mensagem e conversamos brevemente sobre o que está sentindo e suas
+              expectativas.</p>
+          </div>
+        </div>
+        <div class="step reveal-up delay-2">
+          <div class="step__line"></div>
+          <div class="step__dot"></div>
+          <div class="step__content">
+            <span class="step__num">02</span>
+            <h3 class="step__title">Sessão inicial</h3>
+            <p class="step__text">Nossa primeira sessão online é o começo da escuta. Sem julgamentos, sem pressa.</p>
+          </div>
+        </div>
+        <div class="step reveal-up delay-3">
+          <div class="step__line"></div>
+          <div class="step__dot"></div>
+          <div class="step__content">
+            <span class="step__num">03</span>
+            <h3 class="step__title">Processo terapêutico</h3>
+            <p class="step__text">Sessões semanais com acompanhamento dedicado, respeitando seu ritmo e sua história.
+            </p>
+          </div>
+        </div>
+        <div class="step reveal-up delay-4">
+          <div class="step__dot step__dot--last"></div>
+          <div class="step__content">
+            <span class="step__num">04</span>
+            <h3 class="step__title">Transformação real</h3>
+            <p class="step__text">Você começa a se conhecer de verdade — e a criar a vida que quer ter.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DEPOIMENTOS -->
+  <section class="depo" id="depoimentos">
+    <div class="depo__inner">
+      <div class="depo__header">
+        <span class="section-label reveal-up">depoimentos</span>
+        <h2 class="depo__headline reveal-up delay-1">O que dizem<br /><em>as pacientes</em></h2>
+      </div>
+      <div class="depo__track-wrap">
+        <div class="depo__track" id="depoTrack">
+          <div class="depo-card">
+            <div class="depo-card__stars">★★★★★</div>
+            <p class="depo-card__text">"Nunca imaginei que falar sobre o que sinto poderia ser tão leve. A Bruna tem um
+              jeito único de acolher sem julgar. Hoje me reconheço de um jeito que nunca tinha conseguido."</p>
+            <span class="depo-card__name">— M.S., 32 anos</span>
+          </div>
+          <div class="depo-card">
+            <div class="depo-card__stars">★★★★★</div>
+            <p class="depo-card__text">"Cheguei no limite da ansiedade e hoje consigo respirar. O processo foi
+              transformador. Aprendi que posso cuidar de mim sem culpa."</p>
+            <span class="depo-card__name">— A.R., 27 anos</span>
+          </div>
+          <div class="depo-card">
+            <div class="depo-card__stars">★★★★★</div>
+            <p class="depo-card__text">"Comecei a terapia com medo de me descobrir. Hoje agradeço por cada sessão. A
+              Bruna me ajudou a entender padrões que eu repetia há anos sem perceber."</p>
+            <span class="depo-card__name">— C.L., 38 anos</span>
+          </div>
+          <div class="depo-card">
+            <div class="depo-card__stars">★★★★★</div>
+            <p class="depo-card__text">"O atendimento online foi muito mais fácil do que eu esperava. Sensação de
+              segurança e acolhimento em cada sessão. Recomendo de olhos fechados."</p>
+            <span class="depo-card__name">— P.M., 29 anos</span>
+          </div>
+        </div>
+      </div>
+      <div class="depo__controls">
+        <button class="depo-btn" id="depoPrev" aria-label="anterior">←</button>
+        <div class="depo-dots" id="depoDots"></div>
+        <button class="depo-btn" id="depoNext" aria-label="próximo">→</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- FRASE IMPACTO -->
+  <section class="quote-section">
+    <div class="quote-section__inner reveal-up">
+      <blockquote class="quote-section__text">
+        "A vida que você quer ter depende<br />
+        da pessoa que você se dispõe<br />
+        <em>a ser."</em>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- CONTATO / CTA FINAL -->
+  <section class="contato" id="contato">
+    <div class="contato__inner">
+      <div class="contato__left reveal-left">
+        <span class="section-label">vamos começar?</span>
+        <h2 class="contato__headline">
+          Seu espaço de<br />
+          cuidado começa<br />
+          <em>com uma mensagem.</em>
+        </h2>
+        <p class="contato__text">
+          Atendimentos online para todo o Brasil.<br />
+          Agende sua sessão inicial.
+        </p>
+        <div class="contato__info">
+          <a href="https://instagram.com/brunaalvespsi_" target="_blank" class="contato__link">
+            <span class="contato__link-icon">@</span>
+            brunaalvespsi_
+          </a>
+          <a href="https://linktr.ee/brunac.alvespsi" target="_blank" class="contato__link">
+            <span class="contato__link-icon">↗</span>
+            linktr.ee/brunac.alvespsi
+          </a>
+        </div>
+      </div>
+      <div class="contato__right reveal-right">
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="form-field">
+            <label for="nome" class="form-label">Seu nome</label>
+            <input type="text" id="nome" name="nome" class="form-input" placeholder="Como posso te chamar?" required />
+          </div>
+          <div class="form-field">
+            <label for="email" class="form-label">E-mail</label>
+            <input type="email" id="email" name="email" class="form-input" placeholder="seu@email.com" required />
+          </div>
+          <div class="form-field">
+            <label for="mensagem" class="form-label">O que te trouxe aqui?</label>
+            <textarea id="mensagem" name="mensagem" class="form-input form-textarea"
+              placeholder="Pode contar um pouquinho..." rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full">Quero agendar minha sessão →</button>
+          <p class="form-note">Responderei em até 24 horas com carinho.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__logo">Bruna C. Alves</div>
+      <p class="footer__tagline">Psicóloga Clínica · CRP 16/09314</p>
+      <p class="footer__copy">© 2025 Bruna C. Alves · Todos os direitos reservados · Atendimento psicológico online</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
