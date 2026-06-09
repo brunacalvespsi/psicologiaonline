@@ -42,7 +42,7 @@ const cards = track ? track.querySelectorAll('.depo-card') : [];
 let current = 0;
 
 function getVisible() {
-  return window.innerWidth <= 768 ? 1;
+  return window.innerWidth <= 768 ? 1: 2;
 }
 
 function getTotal() {
