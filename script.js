@@ -70,7 +70,7 @@ function goTo(index) {
   const visible = getVisible();
   const cardWidth = cards[0].offsetWidth;
   const gap = 24;
-  const offset = current * visible * (cardWidth + gap);
+  const offset = current * (cardWidth + gap);
 
   track.style.transform = `translateX(-${offset}px)`;
 
