@@ -137,10 +137,22 @@ if (form) {
       btn.style.background = '#5C3D2E';
       form.reset();
 
+       const nome = document.getElementById('nome').value;
+       const email = document.getElementById('email').value;
+       const mensagem = document.getElementById('mensagem').value;
+       const texto = `Olá Bruna!
+       Nome: ${nome}
+       Email: ${email}
+       O que me trouxe aqui:
+       ${mensagem}`;
+       
        setTimeout(() => {
-       window.location.replace('https//wa.me/5527992670223');
+          window.open(
+             `https://wa.me/5527992670223?text=${encodeURIComponent(texto)}`,
+             '_blank'
+          );
        }, 2000);
-
+       
       setTimeout(() => {
         btn.textContent = originalText;
         btn.disabled = false;
