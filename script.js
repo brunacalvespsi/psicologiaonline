@@ -138,7 +138,7 @@ if (form) {
       form.reset();
 
        setTimeout(() => {
-       window.location.replace('https//:wa.me/5527992670223');
+       window.location.replace('https//wa.me/5527992670223');
        }, 2000);
 
       setTimeout(() => {
