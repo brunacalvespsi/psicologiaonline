@@ -137,6 +137,10 @@ if (form) {
       btn.style.background = '#5C3D2E';
       form.reset();
 
+       setTimeout(() => {
+       window.location.href = 'https//:wa.me/5527992670223';
+       }, 2000);
+
       setTimeout(() => {
         btn.textContent = originalText;
         btn.disabled = false;
