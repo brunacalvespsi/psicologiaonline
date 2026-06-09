@@ -202,3 +202,24 @@ if (painCards.length) {
   });
   painObserver.observe(document.querySelector('.pain'));
 }
+document.getElementById('contactForm').addEventListener('submit', function(e) {
+  e.preventDefault();
+
+  const nome = document.getElementById('nome').value;
+  const email = document.getElementById('email').value;
+  const mensagem = document.getElementById('mensagem').value;
+
+  const texto =
+`Olá Bruna!
+
+Nome: ${nome}
+Email: ${email}
+
+O que me trouxe aqui:
+${mensagem}`;
+
+  window.open(
+    `https://wa.me/5527992670223?text=${encodeURIComponent(texto)}`,
+    '_blank'
+  );
+});
