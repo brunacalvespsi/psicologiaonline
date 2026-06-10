@@ -863,7 +863,7 @@ em {
 }
 
 .depo-card {
-  min-width: calc(50% - 0.75rem);
+  min-width: 100%;
   background: var(--cream);
   padding: 3rem;
   flex-shrink: 0;
