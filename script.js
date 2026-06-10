@@ -67,10 +67,8 @@ function goTo(index) {
   const total = getTotal();
   current = Math.max(0, Math.min(index, total - 1));
 
-  const visible = getVisible();
-  const cardWidth = cards[0].offsetWidth;
-  const gap = 24;
-  const offset = current * (cardWidth + gap);
+  const carWidth = track.parentElement.offseWidth;
+   const offset = current * cardWidth;
 
   track.style.transform = `translateX(-${offset}px)`;
 
